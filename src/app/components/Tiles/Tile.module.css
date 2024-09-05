@@ -1,0 +1,27 @@
+.tilesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  padding-top: 5rem;
+}
+.tileOutline {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  background-color: #181818;
+  max-width: 67%;
+  border: 1px solid #303030;
+  border-radius: 2rem;
+  box-shadow: 0px 20px 120px 10px #030303;
+}
+
+.tileContent {
+  display: flex;
+  width: 100%;
+  background-color: #222222;
+  border: 1px solid #434343;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 2rem;
+}

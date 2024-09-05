@@ -1,0 +1,29 @@
+.tileOutline {
+  padding: 1rem;
+  background-color: #181818;
+  max-width: 67%;
+  margin: 0 auto;
+  border: 1px solid #303030;
+  border-radius: 2rem;
+  box-shadow: 0px 20px 120px 10px #030303;
+}
+
+.tileContent {
+  background-color: #222222;
+  border: 1px solid #434343;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.tileBar {
+  display: flex;
+  background-color: #2d2d2d;
+  outline: 1px solid #434343;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.jobStatus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}

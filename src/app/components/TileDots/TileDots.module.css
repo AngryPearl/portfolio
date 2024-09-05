@@ -1,0 +1,27 @@
+.dotsWrapper {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  gap: 1rem;
+  box-shadow: 1px 1px 4px #000;
+}
+
+.dot:hover {
+  cursor: not-allowed;
+}
+
+.red {
+  background-color: #fe5e57;
+}
+.yellow {
+  background-color: #febb2e;
+}
+.green {
+  background-color: #29c840;
+}
