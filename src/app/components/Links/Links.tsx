@@ -4,16 +4,17 @@ import styles from "./Links.module.css";
 
 export default function Links({ column = false }) {
   return (
-    <div className={column ? "" : styles.linksWrapper}>
+    <div
+      className={column ? styles.columnLinksWrapper : styles.rowLinksWrapper}
+    >
       <div>
         <a
           href="https://linkedin.com/in/rafal-bogusz"
           target="_blank"
           rel="noopener noreferer"
         >
-          LinkenIn
+          LinkenIn <Image src={ICON_EXTERNAL} alt="icon external" />
         </a>
-        <Image src={ICON_EXTERNAL} alt="icon external" />
       </div>
       <div>
         <a
@@ -21,9 +22,8 @@ export default function Links({ column = false }) {
           target="_blank"
           rel="noopener noreferer"
         >
-          Resume
+          Resume <Image src={ICON_EXTERNAL} alt="icon external" />
         </a>
-        <Image src={ICON_EXTERNAL} alt="icon external" />
       </div>
     </div>
   );

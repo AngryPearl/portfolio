@@ -3,6 +3,9 @@
   position: sticky;
   top: 0;
   justify-content: space-between;
-  padding: 2rem 3rem 4rem;
+  align-items: center;
+  z-index: 10;
+  padding: 1.5rem 3rem 4rem;
   background: linear-gradient(#000000b3, #00000000);
+  pointer-events: none;
 }

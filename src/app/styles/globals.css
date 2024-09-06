@@ -25,6 +25,11 @@ h3 {
   font-size: 1.25rem;
 }
 
+html {
+  scrollbar-color: #777 #333;
+  scrollbar-width: thin;
+}
+
 body {
   font-size: var(--font-size-default);
   font-family: var(--font-family-default);

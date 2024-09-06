@@ -1,18 +1,46 @@
 export const PROJECTS = [
   {
     id: 1,
-    title: "title1",
-    description: "desc",
-    progress: "done",
-    url: "https://github.com/AngryPearl?tab=repositories",
+    title: "Countdown Timer",
+    description: "Animated timer, written in Vanilla JS.",
+    progress: "Done, almost",
+    url: "https://countdown-timer-rb.netlify.app/",
     image:
       "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
   },
   {
     id: 2,
-    title: "title2",
-    description: "desc",
-    progress: "done",
+    title: "Fashion Marketplace",
+    description: "Site written at the end of the React course.",
+    progress: "Done, warm-up in 1min",
+    url: "https://react-marketplace-rb.netlify.app",
+    image:
+      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+  },
+  {
+    id: 3,
+    title: "Visualizing Workouts on a Map",
+    description:
+      "A MapBox-based app allow to find new places that have never been visited before.",
+    progress: "Planned",
+    url: "",
+    image:
+      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+  },
+  {
+    id: 4,
+    title: "Todo List",
+    description: "Created as an introduction to React.",
+    progress: "Done",
+    url: "https://react-todo-rb.netlify.app/",
+    image:
+      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+  },
+  {
+    id: 5,
+    title: "Just my GitHub",
+    description: "But don't be too critical.",
+    progress: "In Progress",
     url: "https://github.com/AngryPearl?tab=repositories",
     image:
       "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",

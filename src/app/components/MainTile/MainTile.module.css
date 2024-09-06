@@ -1,15 +1,32 @@
+.tileWrapper {
+  position: relative;
+}
+
+.tileFade {
+  position: absolute;
+  inset: auto 0% 0%;
+  height: 20rem;
+  bottom: -5rem;
+  background: linear-gradient(
+    to bottom,
+    #10101000,
+    var(--color-theme-dark) 60%
+  );
+}
+
 .tileOutline {
   padding: 1rem;
   background-color: #181818;
-  max-width: 67%;
+  width: 64rem;
   margin: 0 auto;
   border: 1px solid #303030;
   border-radius: 2rem;
   box-shadow: 0px 20px 120px 10px #030303;
 }
 
-.tileContent {
-  background-color: #222222;
+.tileBox {
+  height: 30rem;
+  background-color: #202020;
   border: 1px solid #434343;
   border-radius: 1rem;
   font-size: 2rem;
@@ -22,8 +39,24 @@
   border-radius: 1rem 1rem 0 0;
 }
 
-.jobStatus {
+.jobWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
+}
+
+.tileContent {
+  padding: 3rem;
+}
+
+.header {
+  text-shadow: 0 5px 20px #595959, 0 -5px 15px #393939, 0 0 30px #636363;
+  font-size: 5rem;
+  font-weight: 500;
+  padding-bottom: 3rem;
+}
+
+.jobHistory > div:nth-of-type(2) {
+  color: #808080;
+  font-size: 1.5rem;
 }

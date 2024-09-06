@@ -1,3 +1,12 @@
-.linksWrapper {
+.rowLinksWrapper {
   display: flex;
+  gap: 1rem;
+  pointer-events: auto;
+}
+
+.columnLinksWrapper {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  pointer-events: auto;
 }

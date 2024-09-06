@@ -3,20 +3,23 @@
   flex-direction: column;
   align-items: center;
   gap: 5rem;
-  padding-top: 5rem;
+  padding: 5rem 0;
+  position: relative;
 }
+
 .tileOutline {
   display: flex;
-  width: 100%;
+  width: 64rem;
   padding: 1rem;
   background-color: #181818;
-  max-width: 67%;
   border: 1px solid #303030;
   border-radius: 2rem;
   box-shadow: 0px 20px 120px 10px #030303;
 }
 
 .tileContent {
+  overflow: hidden;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -24,11 +27,44 @@
   border: 1px solid #434343;
   border-radius: 1rem;
   font-size: 2rem;
-  padding: 2rem;
+  padding: 2rem 2.5rem;
   transition: background-color 0.5s ease-in-out, border 0.5s;
 }
 
 .tileContent:hover {
   background-color: #1b2e3d;
   border: 1px solid #797979;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptionWrapper {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+.description {
+  color: #808080;
+}
+
+.imageWrapper {
+  display: flex;
+  position: relative;
+  bottom: -4rem;
+  justify-content: center;
+  transition: transform 0.5s;
+}
+
+.imageWrapper > img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.tileContent:hover .imageWrapper {
+  transform: translateY(-2rem);
 }
