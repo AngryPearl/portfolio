@@ -18,10 +18,17 @@
 
 .tileContent {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #222222;
   border: 1px solid #434343;
   border-radius: 1rem;
   font-size: 2rem;
   padding: 2rem;
+  transition: background-color 0.5s ease-in-out, border 0.5s;
+}
+
+.tileContent:hover {
+  background-color: #1b2e3d;
+  border: 1px solid #797979;
 }

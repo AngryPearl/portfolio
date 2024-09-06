@@ -1,3 +1,5 @@
+import MainTile from "../components/MainTile/MainTile";
+
 export default function Info() {
-  return <h2>Info</h2>;
+  return <MainTile content={"It Need Some Time"} />;
 }

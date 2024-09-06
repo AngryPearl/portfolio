@@ -1,0 +1,29 @@
+.footerWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 67%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.footerMain {
+  display: flex;
+  justify-content: space-between;
+}
+.footerLinks {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  gap: 4rem;
+}
+
+.linkGroup {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.legal {
+}
