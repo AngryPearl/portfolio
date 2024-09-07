@@ -9,8 +9,8 @@ export default function Tiles() {
     <div className={styles.tilesWrapper}>
       {PROJECTS.map((project) => {
         return (
-          <a href={project.url}>
-            <div key={project.id} className={styles.tileOutline}>
+          <a key={project.id} href={project.url}>
+            <div className={styles.tileOutline}>
               <div className={styles.tileContent}>
                 <div className={styles.title}>
                   {project.title}
