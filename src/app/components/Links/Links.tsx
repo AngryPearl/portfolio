@@ -13,7 +13,7 @@ export default function Links({ column = false }) {
           target="_blank"
           rel="noopener noreferer"
         >
-          LinkenIn <Image src={ICON_EXTERNAL} alt="icon external" />
+          LinkedIn <Image src={ICON_EXTERNAL} alt="icon external" />
         </a>
       </div>
       <div>
