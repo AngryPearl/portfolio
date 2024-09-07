@@ -22,8 +22,7 @@ export const PROJECTS = [
       "A MapBox-based app allow to find new places that have never been visited before.",
     progress: "Planned",
     url: "",
-    image:
-      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+    image: "/images/map.png",
   },
   {
     id: 4,
