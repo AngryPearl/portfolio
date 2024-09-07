@@ -5,7 +5,6 @@ import styles from "./Menu.module.css";
 
 export default function Menu() {
   const pathname = usePathname();
-  console.log(pathname === "/info");
 
   return (
     <ul className={styles.menu}>

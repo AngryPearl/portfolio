@@ -5,8 +5,7 @@ export const PROJECTS = [
     description: "Animated timer, written in Vanilla JS.",
     progress: "Done, almost",
     url: "https://countdown-timer-rb.netlify.app/",
-    image:
-      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+    image: "/images/timer.png",
   },
   {
     id: 2,
@@ -14,8 +13,7 @@ export const PROJECTS = [
     description: "Site written at the end of the React course.",
     progress: "Done, warm-up in 1min",
     url: "https://react-marketplace-rb.netlify.app",
-    image:
-      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+    image: "/images/marketplace.png",
   },
   {
     id: 3,
@@ -33,8 +31,7 @@ export const PROJECTS = [
     description: "Created as an introduction to React.",
     progress: "Done",
     url: "https://react-todo-rb.netlify.app/",
-    image:
-      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+    image: "/images/todo.png",
   },
   {
     id: 5,
@@ -42,7 +39,6 @@ export const PROJECTS = [
     description: "But don't be too critical.",
     progress: "In Progress",
     url: "https://github.com/AngryPearl?tab=repositories",
-    image:
-      "https://fastly.picsum.photos/id/448/200/300.jpg?hmac=9a1pqR60H2xWN80jPWfmdVkRII-wEQZceiSHpJSZnE4",
+    image: "/images/github.png",
   },
 ];

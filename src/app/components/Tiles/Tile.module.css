@@ -61,8 +61,9 @@
 }
 
 .imageWrapper > img {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  box-shadow: 0px 10px 40px 20px #00000069;
+  border: 1px #3d3d3d86 solid;
+  border-radius: 0.5rem;
 }
 
 .tileContent:hover .imageWrapper {
