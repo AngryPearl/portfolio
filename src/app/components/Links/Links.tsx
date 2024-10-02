@@ -18,7 +18,7 @@ export default function Links({ column = false }) {
       </div>
       <div>
         <a
-          href="https://drive.google.com/file/d/1CUp4iw-vdAn1U-AU_iHD5grIngWu8UzF/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Ak2jH0PS9lg-V8ylyLqrgUQEAhsXCyQE/view?usp=sharing"
           target="_blank"
           rel="noopener noreferer"
         >
