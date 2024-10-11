@@ -3,7 +3,7 @@ export const PROJECTS = [
     id: 1,
     title: "Countdown Timer",
     description: "Animated timer, written in Vanilla JS.",
-    progress: "Done, almost",
+    progress: "Done",
     url: "https://countdown-timer-rb.netlify.app/",
     image: "/images/timer.png",
   },
