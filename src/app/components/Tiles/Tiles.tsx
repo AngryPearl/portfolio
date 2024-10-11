@@ -1,15 +1,16 @@
-import { PROJECTS } from "@/app/constants/projects";
+import { Project, PROJECTS } from "@/app/constants/projects";
 import ARROW from "/public/images/arrow.svg";
 
 import styles from "./Tile.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Tiles() {
+const Tiles: React.FC = () => {
   return (
     <div className={styles.tilesWrapper}>
-      {PROJECTS.map((project) => {
+      {PROJECTS.map((project: Project) => {
         return (
-          <a key={project.id} href={project.url}>
+          <Link key={project.id} href={project.url}>
             <div className={styles.tileOutline}>
               <div className={styles.tileContent}>
                 <div className={styles.title}>
@@ -32,9 +33,11 @@ export default function Tiles() {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         );
       })}
     </div>
   );
-}
+};
+
+export default Tiles;

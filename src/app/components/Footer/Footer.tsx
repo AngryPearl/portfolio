@@ -1,8 +1,9 @@
+import Link from "next/link";
 import Links from "../Links/Links";
 import Logo from "../Logo/Logo";
 import styles from "./Footer.module.css";
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <div className={styles.footerWrapper}>
       <div>
@@ -11,8 +12,8 @@ export default function Footer() {
           <div className={styles.links}>
             <div className={styles.linkGroup}>
               <p>MAIN</p>
-              <a href="/">Work</a>
-              <a href="/info">Info</a>
+              <Link href="/">Work</Link>
+              <Link href="/info">Info</Link>
             </div>
             <div className={styles.linkGroup}>
               <p>CONTACT</p>
@@ -27,4 +28,6 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+};
+
+export default Footer;

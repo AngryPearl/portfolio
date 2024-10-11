@@ -1,4 +1,13 @@
-export const PROJECTS = [
+export interface Project {
+  id: number;
+  title: string;
+  description: string;
+  progress: string;
+  url: string;
+  image: string;
+}
+
+export const PROJECTS: Project[] = [
   {
     id: 1,
     title: "Countdown Timer",

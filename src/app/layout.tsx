@@ -12,14 +12,14 @@ const roboto = Nunito({ weight: ["400", "500"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rafał Bogusz - Software Developer",
-  description: "",
+  description: "Rafał Bogusz - Software Developer Portfolio Page",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={roboto.className}>

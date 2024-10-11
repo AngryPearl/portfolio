@@ -1,6 +1,6 @@
 import styles from "./TileDots.module.css";
 
-export default function TileDots() {
+const TileDots: React.FC = () => {
   return (
     <div className={styles.dotsWrapper}>
       <div className={`${styles.dot} ${styles.red}`}></div>
@@ -8,4 +8,6 @@ export default function TileDots() {
       <div className={`${styles.dot} ${styles.green}`}></div>
     </div>
   );
-}
+};
+
+export default TileDots;

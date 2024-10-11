@@ -1,14 +1,17 @@
 import TileDots from "../TileDots/TileDots";
 import styles from "./MainTile.module.css";
 
-export default function MainTile({ content = "" }) {
+interface MainTitleProps {
+  content?: string;
+}
+
+const MainTile: React.FC<MainTitleProps> = ({ content = "" }) => {
   return (
     <div className={styles.tileWrapper}>
       <div className={styles.tileOutline}>
         <div className={styles.tileBox}>
           <div className={styles.tileBar}>
             <TileDots />
-            {/* <img src="" alt="" />+ */}
           </div>
           {content ? (
             <div
@@ -32,4 +35,6 @@ export default function MainTile({ content = "" }) {
       <div className={styles.tileFade}></div>
     </div>
   );
-}
+};
+
+export default MainTile;

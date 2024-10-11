@@ -1,11 +1,13 @@
 import MainTile from "./components/MainTile/MainTile";
 import Tiles from "./components/Tiles/Tiles";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <main>
       <MainTile />
       <Tiles />
     </main>
   );
-}
+};
+
+export default Home;

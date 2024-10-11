@@ -1,23 +1,29 @@
-"use client";
+"use client"; // for usePathname
 
 import { usePathname } from "next/navigation";
 import styles from "./Menu.module.css";
+import Link from "next/link";
 
-export default function Menu() {
+const Menu: React.FC = () => {
   const pathname = usePathname();
 
   return (
     <ul className={styles.menu}>
       <li>
-        <a href="/" className={pathname === "/" ? styles.active : ""}>
+        <Link href="/" className={pathname === "/" ? styles.active : ""}>
           Work
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/info" className={pathname === "/info" ? styles.active : ""}>
-          Info
-        </a>
+        <Link
+          href="/info"
+          className={pathname === "/info" ? styles.active : ""}
+        >
+          About
+        </Link>
       </li>
     </ul>
   );
-}
+};
+
+export default Menu;
