@@ -1,0 +1,15 @@
+.mainWrapper:before {
+  content: "";
+  position: absolute; /* Pozycjonuje tło w stosunku do rodzica */
+  top: 0px; /* Dostosuj, aby "wylewało się" w górę */
+  left: 0px; /* Dostosuj, aby "wylewało się" w lewo */
+  right: 0px; /* Dostosuj, aby "wylewało się" w prawo */
+  height: 100%; /* Dostosuj, aby "wylewało się" w dół */
+  background-image: radial-gradient(
+    circle at 50% 30%,
+    rgb(255, 255, 255, 13%),
+    rgb(0, 0, 0, 0%) 60%
+  );
+
+  z-index: -1; /* Zapewnia, że tło jest pod treścią */
+}

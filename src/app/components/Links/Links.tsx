@@ -23,7 +23,7 @@ const Links: React.FC<LinksProps> = ({ column = false }) => {
       </div>
       <div>
         <Link
-          href="https://drive.google.com/file/d/1Ak2jH0PS9lg-V8ylyLqrgUQEAhsXCyQE/view?usp=sharing"
+          href="https://drive.google.com/file/d/1bqFJ1vM2YoMTbCn-BQA9kKa9JhfKHeud/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

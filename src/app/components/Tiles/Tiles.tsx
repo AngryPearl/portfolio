@@ -1,14 +1,18 @@
-import { Project, PROJECTS } from "@/app/constants/projects";
+import { Project } from "@/app/constants/projects";
 import ARROW from "/public/images/arrow.svg";
 
 import styles from "./Tile.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const Tiles: React.FC = () => {
+interface TilesProps {
+  projects: Project[];
+}
+
+const Tiles: React.FC<TilesProps> = ({ projects }) => {
   return (
     <div className={styles.tilesWrapper}>
-      {PROJECTS.map((project: Project) => {
+      {projects.map((project: Project) => {
         return (
           <Link key={project.id} href={project.url}>
             <div className={styles.tileOutline}>

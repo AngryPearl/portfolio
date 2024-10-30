@@ -1,5 +1,5 @@
 TODO:
-- TypeScript
+
 - Add tests
 - Update info page
 - Update readme

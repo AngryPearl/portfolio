@@ -1,6 +1,6 @@
 body {
   --color-theme-dark: #121212;
   --color-text-default: #f2f2f2;
-
+  --color-text-gray: #808080;
   --font-size-default: 16px;
 }

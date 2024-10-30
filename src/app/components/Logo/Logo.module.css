@@ -5,5 +5,5 @@
 }
 .logoWrapper > div:nth-of-type(2) {
   font-size: 0.9rem;
-  color: #808080;
+  color: var(--color-text-gray);
 }

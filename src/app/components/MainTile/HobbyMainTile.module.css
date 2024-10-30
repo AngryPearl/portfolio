@@ -1,0 +1,33 @@
+.hobbyTileContent {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 64rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.aboutWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--color-text-gray);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.aboutDot {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 0 20px #fff;
+  border-radius: 50%;
+  display: flex;
+}
+
+.header {
+  text-shadow: 0 5px 20px #595959, 0 -5px 15px #393939, 0 0 30px #636363;
+  font-size: 4rem;
+  font-weight: 500;
+}

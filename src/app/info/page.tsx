@@ -1,11 +1,15 @@
-import MainTile from "../components/MainTile/MainTile";
+import HobbyMainTile from "../components/MainTile/HobbyMainTile";
+import HobbyTiles from "../components/Tiles/HobbyTiles";
+import { HOBBY_PROJECTS } from "@/app/constants/projects";
+import styles from "./page.module.css";
 
-export default function Info() {
+const Info: React.FC = () => {
   return (
-    <main>
-      <MainTile
-        content={`It Need Some Time. <br> For now check out my links.`}
-      />
+    <main className={styles.mainWrapper}>
+      <HobbyMainTile />
+      <HobbyTiles projects={HOBBY_PROJECTS} />
     </main>
   );
-}
+};
+
+export default Info;
